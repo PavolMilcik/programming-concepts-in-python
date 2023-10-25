@@ -1,7 +1,7 @@
-# ------------------------- 6 Complex Examples - For and While loops -----------------------
+print("\n\n------------------ 6 COMPLEX EXAMPLES - FOR AND WHILE LOOPS ------------")
 
 
-print("\n\n------------------- 1. Example -------------------")
+print("\n\n------------------- 1. Example - For and While loops -------------------")
 #       *
 #      * *
 #     * * *
@@ -35,7 +35,7 @@ while rows > 0:
 
 
 
-print("\n------------------- 2. Example -------------------")
+print("\n------------------- 2. Example - For and While loops -------------------")
 #     *
 #    * *
 #   * * *
@@ -91,7 +91,7 @@ while rows > 0:
 
 
 
-print("\n------------------ 3. Example --------------------")
+print("\n------------------ 3. Example - For and While loops --------------------")
 # 1
 # 1 2
 # 1 2 3
@@ -136,7 +136,7 @@ while rows > 0:
 
 
 
-print("------------------- 4. Example -------------------")
+print("------------------- 4. Example - For and While loops -------------------")
 # Print the characters of the string from the end to the beginning.
 # Pavol ---> lovaP
 print("a.) for loop:")
@@ -156,7 +156,7 @@ while i >= 0:
 
 
 
-print("\n\n------------------- 5. Example -------------------")
+print("\n\n------------------- 5. Example - For and While loops -------------------")
 # *
 # **
 # ***
@@ -195,7 +195,7 @@ while rows > 0:
 
 
 
-print("\n------------------ 6. Example ---------------------")
+print("\n------------------ 6. Example - For and While loops ---------------------")
 # **
 # **
 # **
