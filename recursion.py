@@ -1,8 +1,9 @@
-# ------------------------------ 4 Complex Examples - Recursion ------------------------------
+print("\n\n----------------------- 4 COMPLEX EXAMPLES - RECURSION -------------------")
 
 
-print("\n------------------------------ 1. Recursion ------------------------------")
+print("\n\n----------------------- 1. Example - Recursion ---------------------------")
 print("a.) Factorial")
+# 120
 result_fact = 1
 def factorial_recursion_01(x):
     global result_fact
@@ -16,6 +17,7 @@ factorial_recursion_01(5)
 
 
 print("\nb.) Factorial")
+# 120
 def factorial_recursion_02(y):
     if y == 0:
         return 1
@@ -25,8 +27,15 @@ print(factorial_recursion_02(5))
 
 
 
-print("\n\n------------------------------ 2. Recursion ------------------------------")
+print("\n\n----------------------- 2. Example - Recursion ---------------------------")
 print("a.) Division of two numbers")
+# 100
+# 50.0
+# 25.0
+# 12.5
+# 6.25
+# 3.125
+# 1.5625
 def division_recursion_01(x):
     print(x)
     x = x / 2
@@ -36,6 +45,7 @@ division_recursion_01(100)
 
 
 print("\nb.) Division of two numbers")
+# 3
 def division_recursion_02(x, y):
     if x < y:
         return 0
@@ -45,8 +55,13 @@ print(division_recursion_02(15, 5))
 
 
 
-print("\n\n------------------------------ 3. Recursion ------------------------------")
+print("\n\n----------------------- 3. Example - Recursion ---------------------------")
 print("a.) Print Characters from the Front of a String")
+# P
+# a
+# v
+# o
+# l
 x_add = 0
 def char_from_front_01(my_string):
     global x_add
@@ -58,6 +73,7 @@ char_from_front_01("Pavol")
 
 
 print("\nb.) Print Characters from the Front of a String")
+# Pavol
 xx_add = 0
 result_string_front = ""
 def char_from_front_02(my_string):
@@ -72,6 +88,7 @@ char_from_front_02("Pavol")
 
 
 print("\nc.) Print Characters from the Front of a String")
+# John
 def char_from_front_03(param_string):
     x = len(param_string)
     if x > 0:
@@ -81,8 +98,13 @@ char_from_front_03("John")
 
 
 
-print("\n\n\n------------------------------ 4. Recursion ------------------------------")
+print("\n\n\n----------------------- 4. Example - Recursion ---------------------------")
 print("a.) Print Characters from the Back of a String")
+# l
+# o
+# v
+# a
+# P
 y_add = 0
 def char_from_back_01(my_string):
     global y_add
@@ -98,6 +120,7 @@ char_from_back_01("Pavol")
 
 
 print("\nb.) Print Characters from the Back of a String")
+# lovaP
 yy_add = 0
 result_string_back = ""
 def char_from_back_02(my_string):
@@ -117,6 +140,7 @@ char_from_back_02("Pavol")
 
 
 print("\nc.) Print Characters from the Back of a String")
+# lovaP
 def char_from_back_03(word):
     x = len(word)
     if x > 1:
@@ -128,6 +152,7 @@ char_from_back_03("Pavol")
 
 
 print("\n\nd.) Print Characters from the Back of a String")
+# nhoJ
 def char_from_back_03(param_string):
     x = len(param_string)
     if x > 0:
