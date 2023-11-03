@@ -112,4 +112,35 @@ print("These are all the prime numbers in your sequence:\n" + str(all_prime_numb
 
 
 
+print("\n\n\n------------------- 3. Example - Prime Numbers by Filter and Lambda function -------------------")
+
+print(list(filter(lambda x: not len(list(filter(lambda num: not x%num, range(2,int(x**(1/2) +1))))), range(2,101))))
+
+# ---- explanation of x as number 31:
+mth_vr = int(31**(1/2))
+# 5
+
+flr_lmbd_lst = list(filter(lambda num: not 31%num, range(2,int(31**(1/2) +1))))
+# []
+
+len_of_lst = len(flr_lmbd_lst)
+# 0
+# not 0/False == True
+# ---- result: 31 is a prime number
+
+
+# ---- explanation of x as number 45:
+mth_vr = int(45**(1/2))
+# 6
+
+flr_lmbd_lst = list(filter(lambda num: not 45%num, range(2,int(45**(1/2) +1))))
+# [3, 5]
+
+len_of_lst = len(flr_lmbd_lst)
+# 2
+# not 2/True == False
+# ---- result: 45 is not a prime number
+
+
+
 print("\n")
