@@ -28,13 +28,38 @@ print_even_odd_numbers_02(range(1, 11))
 
 
 print("\n\n------------------- 2. Example - Ternary operator -------------------")
+
+print("\nI.")
 print("a.) Is number 6 even?")
 is_even_or_not = True if 6 % 2 == 0 else False
 print(is_even_or_not)
 
-
-print("\nb.) Is number 7 even?")
+print("b.) Is number 7 even?")
 is_even_or_not = True if 7 % 2 == 0 else False
+print(is_even_or_not)
+
+
+print("\nII.")
+print("a.) Is number 6 even?")
+is_even_or_not = 6 % 2 == 0
+print(is_even_or_not)
+
+print("b.) Is number 7 even?")
+is_even_or_not = 7 % 2 == 0
+print(is_even_or_not)
+
+
+print("\nIII.")
+print("a.) Is number 6 even?")
+# 6%2 return 0/False
+# not 6%2 return 1/True
+is_even_or_not = not 6 % 2
+print(is_even_or_not)
+
+print("b.) Is number 7 even?")
+# 7%2 return 1/True
+# not 7%2 return 0/False
+is_even_or_not = not 7 % 2
 print(is_even_or_not)
 
 
